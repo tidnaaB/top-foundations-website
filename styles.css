@@ -1,3 +1,210 @@
-* {
-	outline: 1px solid black;
+/* SIZING/ARRANGEMENT BORDERS */
+/* * {
+	border: 1px solid black;
+}  */
+
+/* START GLOBALS */
+.divider {
+	border: 5px solid black;
 }
+
+img {
+	border-radius: 10px;
+}
+
+footer,
+header {
+	background-color: #1f2937;
+	color: white;
+}
+
+.btn-signup {
+	border-radius: 4px;
+	background-color: #3882f6;
+	color: white;
+	height: 25px;
+	width: 75px;
+}
+
+/* Start Body */
+body {
+	/* border: 5px solid black; */
+	font-family: "Hero Bold", sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+/* End Body */
+
+/* START HEADER SECTION */
+header {
+	/* border: 3px solid red; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 5px 25px 25px 25px;
+}
+
+.header {
+	/* border: 3px solid red; */
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header ul {
+	/* border: 3px solid red; */
+	list-style: none;
+	display: flex;
+	gap: 16px;
+}
+
+header .hero {
+	/* border: 3px solid red; */
+	display: flex;
+	align-items: center;
+}
+
+header .hero-text {
+	/* border: 3px solid black; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 0;
+}
+
+header .hero-image {
+	/* border: 3px solid rgb(0, 255, 255); */
+}
+
+header h1 {
+	font-size: 48px;
+}
+
+header p {
+	font-size: 12px;
+	margin: 0;
+}
+/* END HEADER SECTION */
+
+/* Start Cards Section*/
+.information {
+	/* border: 3px dotted orange; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+}
+
+.information > div {
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 50px;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid #ff00c8; */
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+	font-size: 12px;
+	/* border: 1px solid #ff0800; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 150px;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.card-img {
+	border: 2px solid #3882f6;
+	border-radius: 12px;
+	width: 75px;
+	height: 75px;
+}
+/* End Cards Section*/
+
+/* Quote Section */
+.quote {
+	/* border: 3px solid green; */
+	background-color: #e5e7eb;
+}
+
+.quote > div {
+	/* border: 3px solid rgb(0, 4, 255); */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	max-height: 300px;
+	padding: 50px;
+}
+
+.quote-text {
+	/* border: 3px solid rgb(0, 0, 0); */
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	margin: 50px 50px 0px 50px;
+}
+
+.quote-tag {
+	/* border: 3px solid rgb(0, 0, 0); */
+	width: 200px;
+	margin-right: 100px;
+
+	text-align: center;
+}
+/* End Quote Section */
+
+/* Start Product Section */
+.product > div {
+	border: 3px solid black;
+	border-radius: 15px;
+	background-color: #3882f6;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 75px;
+	padding: 25px;
+}
+
+.product .action-text {
+	font-size: 12px;
+	/* border: 1px solid black; */
+	max-width: 500px;
+	max-height: 100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.btn-signup.two {
+	border: 1px solid white;
+	margin-right: 50px;
+}
+/* End Product Section */
+
+/* START FOOTER SECTION */
+footer {
+	/* border: 3px solid red; */
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+}
+/* END FOOTER SECTION */
